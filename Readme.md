@@ -35,10 +35,10 @@ The program fetches data from your GitHub repository using the GitHub API. It re
 It pulls the task data from a predefined Google Sheets file. Each task in the sheet has a name, priority, owner, status (e.g., "Completed," "In Progress," "Blocked"), and start/end dates. The data is displayed in a clean, readable format for you to track.
 
 ### **3. Send Email Notifications**  
-Once the GitHub and Google Sheets data is fetched, it’s formatted into an email-friendly HTML format. This email is then sent to your specified email address, summarizing all the relevant information. Every time a task status or GitHub activity changes, you get notified!
+Once the GitHub and Google Sheets data is fetched, it’s formatted into an email-friendly HTML format. This email is then sent to your specified email address, summarizing all the relevant information.
 
 ### **4. Automatic Scheduling**  
-The script runs periodically (every minute) and automatically checks for updates. If there’s a change in GitHub issues or pull requests, or if a task status changes in Google Sheets, you will receive a fresh notification.
+The script runs periodically (In specified Interval) and automatically checks for updates.
 
 ## 📥 **Requirements**
 
