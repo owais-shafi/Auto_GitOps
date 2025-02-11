@@ -4,11 +4,11 @@
 
 Welcome to **Auto GitOps**! If you're tired of constantly switching between GitHub and your task management tools, trying to stay on top of issues, pull requests, and tasks, this is the project for you! **Auto GitOps** automates your workflow, keeping you updated on GitHub activities and task progress in a streamlined, efficient manner. 
 
-With this project, you’ll receive real-time email notifications about task updates, GitHub issues, and pull requests. Plus, all task data can be managed easily via a **Google Sheets** file — no complex configuration needed.
+With this project, you’ll receive email notifications about task updates, GitHub issues, and pull requests. Plus, all task data can be managed easily via a **Google Sheets** file — no complex configuration needed.
 
 ## 💡 **What Does It Do?**
 
-- **Automated Task Tracking**: Get notifications about your tasks, whether they are in progress, completed, or blocked. The system keeps track of task statuses and sends you email updates whenever there’s a change.
+- **Automated Task Tracking**: Get notifications about your tasks, whether they are in progress, completed, or blocked.
   
 - **GitHub Issue & Pull Request Management**: It fetches data from your GitHub repositories, keeping you informed about the status of open issues and pull requests. Never miss an update or forget to handle a task!
 
