@@ -1,0 +1,15 @@
+# environment variable file
+.env
+# md files
+headers_info.md
+list_comprehension.md
+smtplib_info.md
+systemd_info.md
+Auth_Gs_info.md
+# virtual environment folder
+auto-gitops-env/
+# Python bytecode files
+__pycache__/
+*.pyc
+# IDE settings (VSCode example)
+.vscode/
