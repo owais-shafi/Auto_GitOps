@@ -61,6 +61,7 @@ def fetch_data_and_start_notifications():
 
         for issue in filter_issues:
             issue_state = issue.state.lower()
+             # this is a ternary expression or ternary conditional operator
             issue_color = "#078ee0" if issue_state == "open" else "#4CAF50" if issue_state == "closed" else "#888888"
 
             github_issues_html += f"""
