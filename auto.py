@@ -16,7 +16,7 @@ SERVICE_ACCOUNT_FILE = os.getenv('Service_Account_File')
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
 SPREADSHEET_ID = os.getenv('Spreadsheet_Id')
 RANGE_NAME = "Sheet1!A2:F15" 
-# Adjust this for the range you need from the Google Sheet(from A2 cell to F6 cell collect all the data)
+# Adjust this for the range you need from the Google Sheet(from A2 cell to F15 cell collect all the data)
 def authenticate():
     credentials = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
     service = build('sheets', 'v4', credentials=credentials)
