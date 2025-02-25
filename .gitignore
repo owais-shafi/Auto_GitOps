@@ -11,5 +11,5 @@ auto-gitops-env/
 # Python bytecode files
 __pycache__/
 *.pyc
-# IDE settings (VSCode example)
+# IDE settings
 .vscode/
